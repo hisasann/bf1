@@ -6,8 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "bf1": "bin/bf1"
+  },
   "author": "hisasann <hisasann25@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisasann/bf1.git"
+  },
+  "author": "hisasann",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hisasann/bf1/issues"
+  },
+  "homepage": "https://github.com/hisasann/bf1#readme",
   "dependencies": {
     "electron": "^1.4.15",
     "normalize.css": "^5.0.0"
