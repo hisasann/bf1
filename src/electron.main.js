@@ -24,7 +24,7 @@ app.on('ready', () => {
     protocol: 'file:',
     slashes: true
   }));
-  mainWindow.openDevTools();
+  // mainWindow.openDevTools();
 
   mainWindow.on('closed', () => {
     mainWindow = null;
