@@ -12,7 +12,7 @@ function onYouTubeIframeAPIReady() {
     width: '853',
     // videoId: 'XtvKnpuv_K0',
     playerVars : {
-      "controls" : '0'
+      "controls" : '1'
     },
     events: {
       'onReady': onPlayerReady,

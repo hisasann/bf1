@@ -16,7 +16,8 @@ app.on('ready', () => {
   mainWindow = new BrowserWindow({
     width: 853,
     height: 480,
-    frame: false
+    useContentSize: true
+    // frame: false
   });
 
   mainWindow.loadURL(url.format({
