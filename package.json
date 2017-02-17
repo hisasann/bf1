@@ -1,0 +1,15 @@
+{
+  "name": "bf1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hisasann <hisasann25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.15",
+    "normalize.css": "^5.0.0"
+  }
+}

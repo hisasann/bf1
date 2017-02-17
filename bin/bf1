@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const electron = require('electron');
+const proc = require('child_process');
+
+const child = proc.spawn(electron, [__dirname + '/../src']);
